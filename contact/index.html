@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me (Haneesh) - Haneesh Portfolio</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://kit.fontawesome.com/df7d8e99f4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <a class="link"></a>
+  <div class="container">
+    <div class="sidebar sidebarGo">
+      <nav>
+        <ul>
+          <li><a href="/home"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="/intro"><i class="fa-solid fa-user"></i> My Intro</a></li>
+          <li><a href="/contact"><i class="fa-solid fa-message"></i> Contact Me</a></li>
+          <li><a href="/blog"><i class="fa-brands fa-blogger-b"></i> Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main contactmain">
+      <div class="hamburger">
+        <img class="ham" src="/ham.png" alt="close" width="23px">
+        <img class="cross" src="/cross.png" alt="menu" width="23px">
+    </div>
+      <div class="contactform">
+        <h1>Contact me for work or general inquiries</h1>
+        <form>
+          <div class="mb-3">
+            <label for="clientname" class="form-label">Name</label>
+            <input type="textbox" class="form-control inputbox" id="clientname" aria-describedby="Name" required>
+          </div>
+          <div class="mb-3">
+            <label for="clientemail" class="form-label">Email address</label>
+            <input type="email" class="form-control inputbox" id="clientemail" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="clientphone" class="form-label">Phone (With country code)</label>
+            <input type="phone" class="form-control inputbox" id="clientphone">
+          </div>
+          <div class="mb-3">
+            <label for="clientenquiry" class="form-label">Enquiry</label>
+            <textarea type="textbox" class="form-control" id="clientinquiry"></textarea>
+          </div>
+          <div class="mb-3" id="form-check">
+            <input type="checkbox" id="form-check-input" id="isClient">
+            <label class="form-check-label" for="isClient">I want you to work on a project with me</label>
+          </div>
+          <button class="btn btn-outline-dark">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+
+</html>

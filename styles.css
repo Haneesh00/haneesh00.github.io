@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', 'Poppins', 'Fredoka', 'Roboto', sans-serif;
+}
+
+.inputbox {
+    height: 20px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    outline: none;
+    border-width: 3px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    border-color: rgb(160, 160, 160);
+}
+
+.inputbox:focus {
+    transition: 100ms;
+    height: 20px;
+    border-color: #000;
+}
+
+textarea {
+    padding: 1%;
+    font-size: 1.2rem;
+    height: 160px;
+    width: 700px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-family: 'Fira Sans', 'Poppins', 'Fredoka', 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar {
+    background-color: rgb(223, 218, 218);
+    font-family: 'Fira Sans', sans-serif;
+    height: 400vh;
+    margin-right: 20px;
+    transition: transform 0.5s ease-in;
+    height: 100vh;
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 45px;
+    font-size: 25px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 33px 0;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: rgb(202, 9, 128); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.hello{
+    font-size: 3em;
+}
+
+.name{
+    font-size: 3em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about{
+    font-size: 2.5em;
+}
+
+.aboutmore {
+    font-size: 2em;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 23px;
+}
+
+.buttons {
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+
+.btn {
+    font-size: 2em;
+    cursor: pointer;
+    margin: 40px 12px;
+}
+
+.btn-outline-dark {
+    background-color: rgb(69, 69, 69);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.btn-light {
+    border-color: #000;
+    background-color: rgb(201, 201, 201);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-right: 15px;
+    color: #000;
+}
+
+.btn-sm {
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.btn-outline-dark:hover {
+    background-color: #000;
+    border-color: #fff;
+}
+
+.btn-light:hover {
+    background-color: #fff;
+}
+
+.devPic img {
+    height: 58vh;
+}
+
+.link {
+    visibility: hidden;
+}
+
+.contactform {
+    margin: 88px;
+    padding: 0 34px;
+    padding-top: 144px;
+   font-family: 'Fira Sans', sans-serif; 
+}
+
+.contactform h1 {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    /* border-radius: 5px; */
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogContainer h1 {
+    font-family: 'Poppins', 'Fira Sans', 'Fredoka', 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blogContainer .blogItem h2 {
+    font-family: 'Fredoka', 'Poppins', 'Roboto', 'Fira Sans', sans-serif;
+}
+
+.blogItem {
+    font-family: 'Fira Sans', 'Poppins', 'Fredoka', 'Roboto', sans-serif;
+    margin: 15px;
+    margin-bottom: 35px;
+}
+
+.blogItem p {
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+.blogContainer h1{
+    margin-top: 30px;
+}
+
+.introMain {
+    margin-top: 30px;
+}
+
+.introMain .skillContainer {
+    margin-top: 25px;
+}
+
+.introMain .skillContainer div {
+    margin: 2%;
+}
+
+.html {
+    background-color: green;
+    width: 450px;
+    height: 22px;
+    border: 3px solid black;
+}
+
+.css {
+    background-color: yellow;
+    width: 300px;
+    height: 22px;
+    border: 3px solid black;
+}
+
+.js {
+    background-color: rgb(187, 255, 0);
+    width: 390px;
+    height: 22px;
+    border: 3px solid black;
+}
+
+.python {
+    background-color: green;
+    width: 620px;
+    height: 22px;
+    border: 3px solid black;
+}
+
+.java {
+    background-color: green;
+    width: 430px;
+    height: 22px;
+    border: 3px solid black;
+}
+
+.c {
+    background-color: yellow;
+    width: 360px;
+    height: 22px;
+    border: 3px solid black;
+}
+
+.cpp {
+    background-color: red;
+    width: 150px;
+    height: 22px;
+    border: 3px solid black;
+}
+
+.textinbar {
+    visibility: hidden;
+}
+
+.sidebarGo {
+    transform: translate(-435px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+.ham {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross {
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.introMain {
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+.contactmain {
+    margin-left: 50px;
+}
+
+.blogmain {
+    margin-left: 60px;
+    margin-top: 35px;
+}
+
+@media (max-width: 970px) {
+    /* * {
+        background-color: aqua;
+    } */
+
+    /* .sidebar {
+        transform: translate(-435px, 0px);
+        position: absolute;
+    } */
+
+    /* .infoContainer{
+        flex-wrap: wrap;
+    } */
+
+    .devPic {
+        display: none;
+    }
+
+    .intro, .blogContainer, .contactform {
+        margin: 50px 8px;
+    }
+
+    .contactform {
+        padding-top: 0;
+    }
+
+    textarea {
+        width: 300px;
+    }
+
+    .devInfo {
+        font-size: 10px;
+    }
+
+    .contactform form div input {
+        width: 65vw;
+    }
+
+    .buttons {
+        font-size: 10px;
+    }
+}
